@@ -1,1 +1,6 @@
-Here is where you will find a repository of bentos configured in version 1.1.11, compatible with HPE PCAI
+Here is where you will find a repository of bentos configured in version 1.1.11, compatible with HPE PCAI. Model cards for uploaded bentos:
+
+NLLB: https://huggingface.co/facebook/nllb-200-3.3B
+Chatterbox: https://huggingface.co/ResembleAI/chatterbox
+
+
