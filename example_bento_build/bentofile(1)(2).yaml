@@ -1,0 +1,17 @@
+service: service.py:svc
+name: chatterbox
+labels:
+  owner: david-mcmahon3
+  project: chatterbox-tts
+include:
+  - "*.py"
+  - bentofile.yaml
+  - requirements.txt
+python:
+  requirements_txt: requirements.txt
+  lock_packages: false
+docker:
+  system_packages:
+    - libsndfile1
+    - ffmpeg
+    - build-essential
