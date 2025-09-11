@@ -1,0 +1,1 @@
+Here you'll find an example of building a bento for HPE Private Cloud AI MLIS deployment. With service.py, bentofile.yaml & requirements.txt, from command line simply "bentoml build" and "bentoml export [imagename:tag] . " to generate the bento. Then upload the resulting bento to internal S3 (which should be configured as a repository within HPE MLIS)
