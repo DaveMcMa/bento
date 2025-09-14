@@ -3,5 +3,6 @@ Here is where you will find a repository of bentos configured in version 1.1.11,
 NLLB: https://huggingface.co/facebook/nllb-200-3.3B
 Chatterbox: https://huggingface.co/ResembleAI/chatterbox
 ASL: https://huggingface.co/prithivMLmods/Alphabet-Sign-Language-Detection
-
+Pyannote: https://huggingface.co/pyannote/speaker-diarization-3.1
+Whisper: https://huggingface.co/openai/whisper-large-v3
 
