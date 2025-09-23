@@ -19,6 +19,8 @@ Pyannote: Audio processing model for speaker diarization and voice activity dete
 
 Whisper: OpenAI's automatic speech recognition model for transcribing audio to text
 
+BGE Small: Less demanding embedding model for CPU inferencing
+
 ## Additional notebook
 
 In the root directory you'll find bento.ipynb - this will automatically download all bentos and upload them to your PCAI S3 (bucket name "rundmc" - change to suit your needs). Then you can access these bento deployments from the MLIS S3 internal repository. 
