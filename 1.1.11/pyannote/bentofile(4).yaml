@@ -1,0 +1,18 @@
+service: service.py:svc
+name: pyannote_diarization
+labels:
+  owner: david-mcmahon3
+  project: pyannote-speaker-diarization
+include:
+  - "*.py"
+  - bentofile.yaml
+  - requirements.txt
+python:
+  requirements_txt: requirements.txt
+  lock_packages: false
+docker:
+  system_packages:
+    - libsndfile1
+    - ffmpeg
+    - build-essential
+    - git
